@@ -1,4 +1,4 @@
-const select = (el, all = false) => {
+export function select(el, all = false){
     el = el.trim()
     if (all) {
         return [...document.querySelectorAll(el)]
@@ -10,7 +10,7 @@ const select = (el, all = false) => {
 /**
  * Easy event listener function
  */
-const on = (type, el, listener, all = false) => {
+export function on(type, el, listener, all = false){
     let selectEl = select(el, all)
     if (selectEl) {
         if (all) {
@@ -19,9 +19,4 @@ const on = (type, el, listener, all = false) => {
             selectEl.addEventListener(type, listener)
         }
     }
-}
-
-module.exports = {
-    select,
-    on
 }

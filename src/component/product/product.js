@@ -1,4 +1,4 @@
-import '../commons/common.css'
+import '../commons/common-style.css'
 import './product.css'
 import AOS from 'aos';
 import Isotope from 'isotope-layout';
