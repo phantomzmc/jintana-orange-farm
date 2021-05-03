@@ -1,18 +1,19 @@
-import './App.css';
 import AbountMe from './component/abount/abount'
 import Product from './component/product/product'
 import Hero from './component/hero/hero'
+import Header from './component/header/header'
+import Facts from './component/facts/facts'
 
 
 function App() {
   return (
-    <div className="App">
-      
+    <div>
+      <Header />
       <Hero />
 
       <div className="content">
-        <h1 className="title">Abount me</h1>
         <AbountMe />
+        <Facts />
         <hr />
         <h1 className="title">รูปสวน</h1>
         <div class="grid grid-cols-3 gap-4">
