@@ -11,7 +11,7 @@ function Product(params) {
                     <h2 class="text-center font-bold uppercase mb-4">PERSONAL</h2>
                     <h3 class="text-center font-bold text-4xl mb-2">$5<span class="text-lg">/mo</span></h3>
                     <p class="text-center font-bold mb-5">
-                        <a href="#" class="hover:underline hover:text-gray-700 transition-all transform hover:scale-110 inline-block">Read more<i class="mdi mdi-arrow-right-thick ml-1"></i></a>
+                        {/* <a href="#" class="hover:underline hover:text-gray-700 transition-all transform hover:scale-110 inline-block">Read more<i class="mdi mdi-arrow-right-thick ml-1"></i></a> */}
                     </p>
                     <ul class="text-sm px-5 mb-8">
                         <li class="leading-tight"><i class="mdi mdi-check-bold text-lg"></i> Lorem ipsum</li>
@@ -27,7 +27,7 @@ function Product(params) {
                     <h2 class="text-center font-bold uppercase mb-4">TEAM</h2>
                     <h3 class="text-center font-bold text-3xl md:text-4xl mb-2">$15<span class="text-lg">/mo</span></h3>
                     <p class="text-center font-bold mb-5">
-                        <a href="#" class="hover:underline hover:text-gray-700 transition-all transform hover:scale-110 inline-block">Read more<i class="mdi mdi-arrow-right-thick ml-1"></i></a>
+                        {/* <a href="#" class="hover:underline hover:text-gray-700 transition-all transform hover:scale-110 inline-block">Read more<i class="mdi mdi-arrow-right-thick ml-1"></i></a> */}
                     </p>
                     <ul class="text-sm px-5 mb-8">
                         <li class="leading-tight"><i class="mdi mdi-check-bold text-lg"></i> Lorem ipsum</li>
@@ -46,7 +46,7 @@ function Product(params) {
                     <h2 class="text-center font-bold uppercase mb-4">PRO</h2>
                     <h3 class="text-center font-bold text-4xl md:text-5xl mb-2">$35<span class="text-lg">/mo</span></h3>
                     <p class="text-center font-bold mb-5">
-                        <a href="#" class="hover:underline hover:text-gray-700 transition-all transform hover:scale-110 inline-block">Read more<i class="mdi mdi-arrow-right-thick ml-1"></i></a>
+                        {/* <a href="#" class="hover:underline hover:text-gray-700 transition-all transform hover:scale-110 inline-block">Read more<i class="mdi mdi-arrow-right-thick ml-1"></i></a> */}
                     </p>
                     <ul class="text-sm px-5 mb-8">
                         <li class="leading-tight"><i class="mdi mdi-check-bold text-lg"></i> Lorem ipsum</li>
@@ -64,7 +64,7 @@ function Product(params) {
                 <div class="w-full flex-grow">
                     <h2 class="text-center text-3xl font-bold uppercase mb-2">ENTERPRISE</h2>
                     <p class="text-center font-bold mb-5">
-                        <a href="#" class="hover:underline hover:text-gray-700 transition-all transform hover:scale-110 inline-block">Read more<i class="mdi mdi-arrow-right-thick ml-1"></i></a>
+                        {/* <a href="#" class="hover:underline hover:text-gray-700 transition-all transform hover:scale-110 inline-block">Read more<i class="mdi mdi-arrow-right-thick ml-1"></i></a> */}
                     </p>
                     <ul class="text-sm px-5 mb-8">
                         <li class="leading-tight"><i class="mdi mdi-check-bold text-lg"></i> Lorem ipsum</li>
