@@ -1,7 +1,7 @@
 #hero {
     width: 100%;
     height: 100vh;
-    background: url(../../image/profile.png) top center;
+    background: url(../../images/profile.png) top center;
     background-size: cover;
     position: relative;
   }
