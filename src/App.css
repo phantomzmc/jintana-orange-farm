@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 .App {
   text-align: center;
 }
@@ -35,4 +39,16 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.comA {
+  width : 100px;
+  background : #000
+}
+.title {
+  margin: 200px;
+}
+.content {
+   margin-left: 50px;
+   margin-right: 50px;
 }
