@@ -1,58 +1,65 @@
 import '../commons/common-style.css'
 import './product.css'
-import AOS from 'aos';
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 import Isotope from 'isotope-layout';
+// import * as Swiper from 'swiper';
+import * as Glightbox from 'glightbox';
 import { select, on } from "../commons/common";
 
-function Product(params) {
+function Product() {
     /**
    * Easy selector helper function
    */
-
     /**
    * Porfolio isotope and filter
    */
-
-    window.addEventListener('load', () => {
-        let portfolioContainer = select('.portfolio-container');
-        if (portfolioContainer) {
-            let portfolioIsotope = new Isotope(portfolioContainer, {
-                itemSelector: '.portfolio-item',
-                layoutMode: 'fitRows'
-            });
-
-            let portfolioFilters = select('#portfolio-flters li', true);
-
-            on('click', '#portfolio-flters li', function (e) {
-                e.preventDefault();
-                portfolioFilters.forEach(function (el) {
-                    el.classList.remove('filter-active');
-                });
-                this.classList.add('filter-active');
-
-                portfolioIsotope.arrange({
-                    filter: this.getAttribute('data-filter')
-                });
-                portfolioIsotope.on('arrangeComplete', function () {
-                    let refresh = new AOS();
-                    refresh.refresh();
-                });
-            }, true);
+    useEffect(() => {
+        AOS.init({
+            duration: 1000,
+            easing: 'ease-in-out',
+            once: true,
+            mirror: false
+        })
+        AOS.refresh();
+        return () => {
+            console.log("return data")
         }
+    }, []);
+    // window.addEventListener('load', () => {
+    //     let portfolioContainer = select('.portfolio-container');
+    //     if (portfolioContainer) {
+    //         let aos = new AOS()
+    //         let portfolioIsotope = new Isotope(portfolioContainer, {
+    //             itemSelector: '.portfolio-item',
+    //             layoutMode: 'fitRows'
+    //         });
 
-    });
+    //         let portfolioFilters = select('#portfolio-flters li', true);
 
-    /**
-     * Initiate portfolio lightbox 
-     */
-    // const portfolioLightbox = new Glightbox({
-    //     selector: '.portfolio-lightbox'
+    //         on('click', '#portfolio-flters li', function (e) {
+    //             e.preventDefault();
+    //             portfolioFilters.forEach(function (el) {
+    //                 el.classList.remove('filter-active');
+    //             });
+    //             this.classList.add('filter-active');
+
+    //             portfolioIsotope.arrange({
+    //                 filter: this.getAttribute('data-filter')
+    //             });
+    //             portfolioIsotope.on('arrangeComplete', function () {
+    //                 aos.refresh();
+    //             });
+    //         }, true);
+    //     }
+
     // });
 
     /**
      * Portfolio details slider
      */
-    // new Swiper('.portfolio-details-slider', {
+    // swiper = new Swiper('.portfolio-details-slider', {
     //     speed: 400,
     //     loop: true,
     //     autoplay: {
@@ -66,18 +73,9 @@ function Product(params) {
     //     }
     // });
 
-    /**
-     * Animation on scroll
-     */
-    window.addEventListener('load', () => {
-        let init = new AOS();
-        init.init({
-            duration: 1000,
-            easing: 'ease-in-out',
-            once: true,
-            mirror: false
-        })
-    });
+
+
+
     return (
         <section id="portfolio" class="portfolio">
             <div class="container" data-aos="fade-up">
@@ -99,43 +97,43 @@ function Product(params) {
                 </div>
                 <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
                     <div class="col-lg-4 col-md-6 portfolio-item filter-5">
-                        <img src={require(`../../images/no5_4.jpg`)} class="img-fluid" alt="" />
+                        <img src="https://jintana-orange-farm.s3-ap-southeast-1.amazonaws.com/no5_4.jpg" class="img-fluid" alt="" />
                         <div class="portfolio-info">
                             <h4>ส้มสายน้ำผึ้ง เบอร์ 5 40 ลูก</h4>
                             <p>ราคา : 400 บาท</p>
-                            <a href="../../image/no5_4.jpg" data-gallery="portfolioGallery"
+                            <a href="https://jintana-orange-farm.s3-ap-southeast-1.amazonaws.com/no5_4.jpg" data-gallery="portfolioGallery"
                                 class="portfolio-lightbox preview-link" title="Card 2"><i class="bx bx-plus"></i></a>
                             <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 portfolio-item filter-5">
-                        <img src="../../image/no5_5.jpg" class="img-fluid" alt="" />
+                        <img src="https://jintana-orange-farm.s3-ap-southeast-1.amazonaws.com/no5_5.jpg" class="img-fluid" alt="" />
                         <div class="portfolio-info">
                             <h4>ส้มสายน้ำผึ้ง เบอร์ 5 84 ลูก</h4>
                             <p>ราคา : 750 บาท</p>
-                            <a href="../../image/no5_5.jpg" data-gallery="portfolioGallery"
+                            <a href="https://jintana-orange-farm.s3-ap-southeast-1.amazonaws.com/no5_5.jpg" data-gallery="portfolioGallery"
                                 class="portfolio-lightbox preview-link" title="Web 2"><i class="bx bx-plus"></i></a>
                             <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
                         </div>
                     </div>
 
                     <div class="col-lg-4 col-md-6 portfolio-item filter-6">
-                        <img src="../../image/no6_2.jpg" class="img-fluid" alt="" />
+                        <img src="https://jintana-orange-farm.s3-ap-southeast-1.amazonaws.com/no6_2.JPG" class="img-fluid" alt="" />
                         <div class="portfolio-info">
                             <h4>ส้มสายน้ำผึ้ง เบอร์ 6 30 ลูก</h4>
                             <p>ราคา : 450 บาท</p>
-                            <a href="../../image/no6_2.jpgG" data-gallery="portfolioGallery"
+                            <a href="https://jintana-orange-farm.s3-ap-southeast-1.amazonaws.com/no6_2.JPG" data-gallery="portfolioGallery"
                                 class="portfolio-lightbox preview-link" title="Card 1"><i class="bx bx-plus"></i></a>
                             <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
                         </div>
                     </div>
 
                     <div class="col-lg-4 col-md-6 portfolio-item filter-6">
-                        <img src="../../image/no6_3.jpg" class="img-fluid" alt="" />
+                        <img src="https://jintana-orange-farm.s3-ap-southeast-1.amazonaws.com/no6_3.JPG" class="img-fluid" alt="" />
                         <div class="portfolio-info">
                             <h4>ส้มสายน้ำผึ้ง เบอร์ 6 72 ลูก</h4>
                             <p>ราคา : 850 บาท</p>
-                            <a href="../../image/no6_3.jpg" data-gallery="portfolioGallery"
+                            <a href="https://jintana-orange-farm.s3-ap-southeast-1.amazonaws.com/no6_3.JPG" data-gallery="portfolioGallery"
                                 class="portfolio-lightbox preview-link" title="Card 3"><i class="bx bx-plus"></i></a>
                             <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
                         </div>
