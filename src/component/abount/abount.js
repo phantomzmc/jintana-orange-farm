@@ -27,7 +27,7 @@ function AbountMe(params) {
             <div class="icon-box" data-aos="fade-up" data-aos-delay="300">
               <div class="icon"><i class="bi bi-heart-fill"></i></div>
               <h4 class="title"><a href="">ส้มผิวสวย เหมาะสำหรับนำเป็นของฝาก</a></h4>
-              <p class="description">สามารถนำเป็นของฝากเพื่อคนที่คุณรักได้ เพราะทางสวนมีการขัดที่ดีจากคนที่มีประสบการณ์นาน 10 ปี</p>
+              <p class="description">สามารถนำเป็นของฝากเพื่อคนที่คุณรักได้ เพราะทางสวนมีการคัดที่ดีจากคนที่มีประสบการณ์นาน 10 ปี</p>
             </div>
 
           </div>

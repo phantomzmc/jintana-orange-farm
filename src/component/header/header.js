@@ -159,9 +159,9 @@ const Header = () => {
                         <ul>
                             <li><a className="nav-link scrollto active" href="#hero">หน้าแรก</a></li>
                             <li><a className="nav-link scrollto" href="#about">เกี่ยวกับ</a></li>
-                            <li><a className="nav-link scrollto" href="#services">Services</a></li>
+                            {/* <li><a className="nav-link scrollto" href="#services">Services</a></li> */}
                             <li><a className="nav-link scrollto " href="#portfolio">สินค้า</a></li>
-                            <li><a className="nav-link scrollto" href="#team">Team</a></li>
+                            {/* <li><a className="nav-link scrollto" href="#team">Team</a></li> */}
                             {/* <li className="dropdown"><a href="#"><span>Drop Down</span> <i className="bi bi-chevron-down"></i></a>
                             <ul>
                                 <li><a href="#">Drop Down 1</a></li>
