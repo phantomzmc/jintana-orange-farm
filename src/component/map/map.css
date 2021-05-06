@@ -4,7 +4,7 @@
   } */
 
   #maps {
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../../images/000024.JPG) fixed center center;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://jintana-orange-farm.s3-ap-southeast-1.amazonaws.com/000024.JPG') fixed center center;
     background-size: cover;
     padding: 80px 0;
   }
