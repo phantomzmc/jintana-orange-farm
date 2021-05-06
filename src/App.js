@@ -4,6 +4,7 @@ import Hero from './component/hero/hero'
 import Header from './component/header/header'
 import Facts from './component/facts/facts'
 import Content from './component/content/content'
+import Maps from './component/map/main-map'
 import './App.css'
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
         <AbountMe />
         <Facts />
         <Product />
+        <Maps />
         <Content />
       </div>
       <footer id="footer">

@@ -179,6 +179,7 @@ const Header = () => {
                                 <li><a href="#">Drop Down 4</a></li>
                             </ul>
                         </li> */}
+                            <li><a className="nav-link scrollto" href="#maps">แผนที่</a></li>
                             <li><a className="nav-link scrollto" href="#contact">ติดต่อสอบถาม</a></li>
                         </ul>
                         <i className="bi bi-list mobile-nav-toggle"></i>

@@ -9,6 +9,9 @@ function Content(params) {
                     <p class="section-description">สามารถสั่งซื้อสินค้าหรือติดต่อสอบถามได้ที่</p>
                 </div>
             </div>
+            {/* <iframe
+                src="https://www.google.com/maps/place/19%C2%B055'19.1%22N+99%C2%B006'20.6%22E/@19.9219638,99.1035266,17z/data=!3m1!4b1!4m5!3m4!1s0x0:0x0!8m2!3d19.9219588!4d99.1057153"
+                width="100%" height="380" frameborder="0" style="border:0" allowfullscreen></iframe> */}
 
             <div class="container mt-12">
                 <div class="row justify-content-center">
@@ -28,7 +31,7 @@ function Content(params) {
 
                             <div>
                                 <i class="bi bi-phone"></i>
-                                <p>+66802612880<br/>+66972277770</p>
+                                <p>+66802612880<br />+66972277770</p>
                             </div>
                         </div>
 
