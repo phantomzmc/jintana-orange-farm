@@ -5,6 +5,7 @@ import Header from './component/header/header'
 import Facts from './component/facts/facts'
 import Content from './component/content/content'
 import Maps from './component/map/main-map'
+import MessengerCustomerChat from 'react-messenger-customer-chat';
 import './App.css'
 
 function App() {
@@ -20,6 +21,10 @@ function App() {
         <Maps />
         <Content />
       </div>
+      <MessengerCustomerChat
+        pageId="100214885291937"
+        appId="264316655429529"
+      />
       <footer id="footer">
         <div class="footer-top">
           <div class="container">
