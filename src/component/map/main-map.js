@@ -1,4 +1,5 @@
 import SimpleMap from "./map";
+import MapsBox from "./map-box";
 import './map.css';
 
 function Maps() {
@@ -9,10 +10,13 @@ function Maps() {
                     <h3 class="cta-title">ที่ตั้งสวนส้มจินตนา 🍊</h3>
                     <p class="cta-text">แผนที่ตั้งสวน</p>
                 </div>
+                <div class="mapsbox">
+                    <MapsBox />
+                </div>
             </div>
 
-            <SimpleMap />
-            
+            {/* <SimpleMap /> */}
+
         </section>
     )
 }
