@@ -1,4 +1,6 @@
 import React, { useState, useEffect } from "react";
+import { Helmet } from "react-helmet";
+import { Link } from "react-router-dom";
 import './header.css';
 import * as AOS from 'aos';
 import { select, on } from "../commons/common";
@@ -148,6 +150,12 @@ const Header = () => {
     }, [])
     return (
         <div>
+            <Helmet>
+                <meta charSet="utf-8" />
+                <title>สวนส้มจินตนา-ส้มสายน้ำผึ้ง อำเภอฝาง</title>
+                <meta name="description" content="สวนส้มจินตนา-ส้มสายน้ำผึ้ง อำเภอฝาง" />
+                <meta name="keywords" content="สวนส้มจินตนา,ส้มสายน้ำผึ้ง,อำเภอฝาง,เชียงใหม่,orange" />
+            </Helmet>
             <header id="header" class="fixed-top d-flex align-items-center header-transparent">
                 <div class="container d-flex justify-content-between align-items-center">
 

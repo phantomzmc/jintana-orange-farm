@@ -1,41 +1,23 @@
-import AbountMe from './component/abount/abount'
-import Product from './component/product/product'
-import Hero from './component/hero/hero'
-import Header from './component/header/header'
-import Facts from './component/facts/facts'
-import Content from './component/content/content'
-import Maps from './component/map/main-map'
+import { Helmet } from "react-helmet";
+import { BrowserRouter, Switch, Route, Link } from "react-router-dom";
+import Main from "./controller/main";
+import Hero from "./component/hero/hero";
 import './App.css'
 
 function App() {
   return (
     <div>
-      <Header />
-      <Hero />
+      <BrowserRouter>
+        <Switch>
+          <Route exact path="/">
+            <Main />
+          </Route>
+          {/* <Route path="/abount">
+            <Hero />
+          </Route> */}
+        </Switch>
+      </BrowserRouter>
 
-      <div className="content">
-        <AbountMe />
-        <Facts />
-        <Product />
-        <Maps />
-        <Content />
-      </div>
-      <footer id="footer">
-        <div class="footer-top">
-          <div class="container">
-
-          </div>
-        </div>
-
-        <div class="container">
-          <div class="copyright">
-            &copy; Copyright <strong>Jintana Orange Farm</strong>. All Rights Reserved
-      </div>
-          <div class="credits">
-            Designed by <a href="#">Jintana Orange Farm</a>
-          </div>
-        </div>
-      </footer>
     </div>
   );
 }
