@@ -54,3 +54,9 @@
     background: #FF7F50	;
     border: 2px solid #FF7F50	;
   }
+
+  #maps .container.mapsbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
