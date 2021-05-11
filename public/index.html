@@ -8,6 +8,7 @@
   <meta name="theme-color" content="#000000" />
   <meta name="description" content="สวนส้มจินตนา-ส้มสายน้ำผึ้ง อำเภอฝาง" />
   <meta name=“keywords” content="สวนส้มจินตนา,ส้มสายน้ำผึ้ง,ส้ม,orange" />
+  <meta name="google-site-verification" content="DvDrNsK7c1JTMWJCplNIL6BdJMne_tiuKraH-7ZTS6w" />
   <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
 
   <!--
@@ -37,11 +38,22 @@
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
   <title>สวนส้มจินตนา</title>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-196651875-1">
+  </script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-196651875-1');
+  </script>
 </head>
 
 <body>
   <noscript>สวนส้มจินตนา-ส้มสายน้ำผึ้ง อำเภอฝาง</noscript>
   <div id="root">
+    <!-- google-site-verification=DvDrNsK7c1JTMWJCplNIL6BdJMne_tiuKraH-7ZTS6w -->
     <!-- Messenger ปลั๊กอินแชท Code -->
     <!-- <div id="fb-root"></div>
       <script>
@@ -92,7 +104,22 @@
   <script src="./vendor/purecounter/purecounter.js"></script>
   <script src="./vendor/swiper/swiper-bundle.min.js"></script>
   <script src="./js/main.js"></script>
-  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAjI-xgJuRrbdGY328DYy6u3qu16BfZa-U&callback=initMap" type="text/javascript"></script>
+  <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAjI-xgJuRrbdGY328DYy6u3qu16BfZa-U&callback=initMap"
+    type="text/javascript"></script>
+  <!-- Google Analytics -->
+  <script>
+      (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+          (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date(); a = s.createElement(o),
+          m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+      })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-XXXXX-Y', 'auto');
+    ga('send', 'pageview');
+  </script>
+  <!-- End Google Analytics -->
 </body>
 
 </html>
