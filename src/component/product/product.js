@@ -99,53 +99,82 @@ function Product() {
                             <ul id="portfolio-flters">
                                 <li data-filter="*" class="filter-active">ทั้งหมด</li>
                                 {/* <li data-filter=".filter-4">เบอร์ 4</li> */}
-                                <li data-filter=".filter-5">เบอร์ 5</li>
-                                <li data-filter=".filter-6">เบอร์ 6</li>
-                                <li data-filter=".filter-all">คละเบอร์</li>
+                                <li data-filter=".filter-oranage">ส้มสายน้ำผึ้ง</li>
+                                <li data-filter=".filter-avocado">อะโวคาโด</li>
                             </ul>
                         </div>
                     </div>
                     <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
-                        <div class="col-lg-4 col-md-6 portfolio-item filter-5">
+                        <div class="col-lg-4 col-md-6 portfolio-item filter-oranage">
                             <img src="https://jintana-orange-farm.s3-ap-southeast-1.amazonaws.com/no5_4.jpg" class="img-fluid" alt="" />
                             <div class="portfolio-info">
                                 <h4>ส้มสายน้ำผึ้ง เบอร์ 5 40 ลูก</h4>
                                 <p>ราคา : 400 บาท</p>
                                 <a href="https://jintana-orange-farm.s3-ap-southeast-1.amazonaws.com/no5_4.jpg" data-gallery="portfolioGallery"
                                     class="portfolio-lightbox preview-link" title="Card 2"><i class="bx bx-plus"></i></a>
-                                <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+                                <a href="https://shop.line.me/@190plhte" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-6 portfolio-item filter-5">
+                        <div class="col-lg-4 col-md-6 portfolio-item filter-oranage">
                             <img src="https://jintana-orange-farm.s3-ap-southeast-1.amazonaws.com/no5_5.jpg" class="img-fluid" alt="" />
                             <div class="portfolio-info">
                                 <h4>ส้มสายน้ำผึ้ง เบอร์ 5 84 ลูก</h4>
                                 <p>ราคา : 750 บาท</p>
                                 <a href="https://jintana-orange-farm.s3-ap-southeast-1.amazonaws.com/no5_5.jpg" data-gallery="portfolioGallery"
                                     class="portfolio-lightbox preview-link" title="Web 2"><i class="bx bx-plus"></i></a>
-                                <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+                                <a href="https://shop.line.me/@190plhte" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
                             </div>
                         </div>
 
-                        <div class="col-lg-4 col-md-6 portfolio-item filter-6">
+                        <div class="col-lg-4 col-md-6 portfolio-item filter-oranage">
                             <img src="https://jintana-orange-farm.s3-ap-southeast-1.amazonaws.com/no6_2.JPG" class="img-fluid" alt="" />
                             <div class="portfolio-info">
                                 <h4>ส้มสายน้ำผึ้ง เบอร์ 6 30 ลูก</h4>
                                 <p>ราคา : 450 บาท</p>
                                 <a href="https://jintana-orange-farm.s3-ap-southeast-1.amazonaws.com/no6_2.JPG" data-gallery="portfolioGallery"
                                     class="portfolio-lightbox preview-link" title="Card 1"><i class="bx bx-plus"></i></a>
-                                <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+                                <a href="https://shop.line.me/@190plhte" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
                             </div>
                         </div>
 
-                        <div class="col-lg-4 col-md-6 portfolio-item filter-6">
+                        <div class="col-lg-4 col-md-6 portfolio-item filter-oranage">
                             <img src="https://jintana-orange-farm.s3-ap-southeast-1.amazonaws.com/no6_3.JPG" class="img-fluid" alt="" />
                             <div class="portfolio-info">
                                 <h4>ส้มสายน้ำผึ้ง เบอร์ 6 72 ลูก</h4>
                                 <p>ราคา : 850 บาท</p>
                                 <a href="https://jintana-orange-farm.s3-ap-southeast-1.amazonaws.com/no6_3.JPG" data-gallery="portfolioGallery"
                                     class="portfolio-lightbox preview-link" title="Card 3"><i class="bx bx-plus"></i></a>
-                                <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+                                <a href="https://shop.line.me/@190plhte" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 portfolio-item filter-avocado">
+                            <img src="https://jintana-orange-farm.s3.ap-southeast-1.amazonaws.com/avocado_001.jpeg" class="img-fluid" alt="" />
+                            <div class="portfolio-info">
+                                <h4>อะโวคาโด พันธ์พื้นเมือง 3 กิโลกรัม</h4>
+                                <p>ราคา : 290 บาท</p>
+                                <a href="https://jintana-orange-farm.s3.ap-southeast-1.amazonaws.com/avocado_001.jpeg" data-gallery="portfolioGallery"
+                                    class="portfolio-lightbox preview-link" title="Card 3"><i class="bx bx-plus"></i></a>
+                                <a href="https://shp.ee/hkvkmbt" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 portfolio-item filter-avocado">
+                            <img src="https://jintana-orange-farm.s3.ap-southeast-1.amazonaws.com/avocado_002.jpeg" class="img-fluid" alt="" />
+                            <div class="portfolio-info">
+                                <h4>อะโวคาโด พันธ์พื้นเมือง 5 กิโลกรัม</h4>
+                                <p>ราคา : 550 บาท</p>
+                                <a href="https://jintana-orange-farm.s3.ap-southeast-1.amazonaws.com/avocado_002.jpeg" data-gallery="portfolioGallery"
+                                    class="portfolio-lightbox preview-link" title="Card 3"><i class="bx bx-plus"></i></a>
+                                <a href="https://shp.ee/hkvkmbt" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 portfolio-item filter-avocado">
+                            <img src="https://jintana-orange-farm.s3.ap-southeast-1.amazonaws.com/avocado_003.jpeg" class="img-fluid" alt="" />
+                            <div class="portfolio-info">
+                                <h4>อะโวคาโด พันธ์พื้นเมือง 10 กิโลกรัม</h4>
+                                <p>ราคา : 850 บาท</p>
+                                <a href="https://jintana-orange-farm.s3.ap-southeast-1.amazonaws.com/avocado_003.jpeg" data-gallery="portfolioGallery"
+                                    class="portfolio-lightbox preview-link" title="Card 3"><i class="bx bx-plus"></i></a>
+                                <a href="https://shp.ee/hkvkmbt" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
                             </div>
                         </div>
                     </div>
