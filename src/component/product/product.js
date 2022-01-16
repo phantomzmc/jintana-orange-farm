@@ -109,7 +109,7 @@ function Product() {
                             <img src="https://jintana-orange-farm.s3-ap-southeast-1.amazonaws.com/no5_4.jpg" class="img-fluid" alt="" />
                             <div class="portfolio-info">
                                 <h4>ส้มสายน้ำผึ้ง เบอร์ 5 40 ลูก</h4>
-                                <p>ราคา : 400 บาท</p>
+                                <p>ราคา : 449 บาท</p>
                                 <a href="https://jintana-orange-farm.s3-ap-southeast-1.amazonaws.com/no5_4.jpg" data-gallery="portfolioGallery"
                                     class="portfolio-lightbox preview-link" title="Card 2"><i class="bx bx-plus"></i></a>
                                 <a href="https://shop.line.me/@190plhte" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
@@ -119,7 +119,7 @@ function Product() {
                             <img src="https://jintana-orange-farm.s3-ap-southeast-1.amazonaws.com/no5_5.jpg" class="img-fluid" alt="" />
                             <div class="portfolio-info">
                                 <h4>ส้มสายน้ำผึ้ง เบอร์ 5 84 ลูก</h4>
-                                <p>ราคา : 750 บาท</p>
+                                <p>ราคา : 790 บาท</p>
                                 <a href="https://jintana-orange-farm.s3-ap-southeast-1.amazonaws.com/no5_5.jpg" data-gallery="portfolioGallery"
                                     class="portfolio-lightbox preview-link" title="Web 2"><i class="bx bx-plus"></i></a>
                                 <a href="https://shop.line.me/@190plhte" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
@@ -130,7 +130,7 @@ function Product() {
                             <img src="https://jintana-orange-farm.s3-ap-southeast-1.amazonaws.com/no6_2.JPG" class="img-fluid" alt="" />
                             <div class="portfolio-info">
                                 <h4>ส้มสายน้ำผึ้ง เบอร์ 6 30 ลูก</h4>
-                                <p>ราคา : 450 บาท</p>
+                                <p>ราคา : 499 บาท</p>
                                 <a href="https://jintana-orange-farm.s3-ap-southeast-1.amazonaws.com/no6_2.JPG" data-gallery="portfolioGallery"
                                     class="portfolio-lightbox preview-link" title="Card 1"><i class="bx bx-plus"></i></a>
                                 <a href="https://shop.line.me/@190plhte" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
@@ -141,7 +141,7 @@ function Product() {
                             <img src="https://jintana-orange-farm.s3-ap-southeast-1.amazonaws.com/no6_3.JPG" class="img-fluid" alt="" />
                             <div class="portfolio-info">
                                 <h4>ส้มสายน้ำผึ้ง เบอร์ 6 72 ลูก</h4>
-                                <p>ราคา : 850 บาท</p>
+                                <p>ราคา : 899 บาท</p>
                                 <a href="https://jintana-orange-farm.s3-ap-southeast-1.amazonaws.com/no6_3.JPG" data-gallery="portfolioGallery"
                                     class="portfolio-lightbox preview-link" title="Card 3"><i class="bx bx-plus"></i></a>
                                 <a href="https://shop.line.me/@190plhte" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
