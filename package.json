@@ -7,6 +7,7 @@
     "@testing-library/react": "^11.2.6",
     "@testing-library/user-event": "^12.8.3",
     "aos": "^2.3.4",
+    "axios": "^0.24.0",
     "glightbox": "^3.0.8",
     "google-map-react": "^2.1.9",
     "isotope-layout": "^3.0.6",
@@ -17,7 +18,7 @@
     "react-mapbox-gl": "^5.1.1",
     "react-messenger-customer-chat": "^0.8.0",
     "react-router-dom": "^5.2.0",
-    "react-scripts": "4.0.3",
+    "react-scripts": "^5.0.0",
     "swiper": "^6.5.9",
     "web-vitals": "^1.1.1"
   },

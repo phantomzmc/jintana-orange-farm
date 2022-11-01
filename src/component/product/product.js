@@ -2,15 +2,23 @@ import { Helmet } from "react-helmet";
 
 import '../commons/common-style.css'
 import './product.css'
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Isotope from 'isotope-layout';
 // import * as Swiper from 'swiper';
 import * as Glightbox from 'glightbox';
 import { select, on } from "../commons/common";
+import axios from 'axios';
+
+const url = `https://uq5g3seq3h.execute-api.ap-southeast-1.amazonaws.com/dev`
 
 function Product() {
+
+    const [response, setResponse] = useState({});
+    const [error, setError] = useState({})
+    const [loading, setloading] = useState(false)
+    const [product, setProduct] = useState([]);
     /**
    * Easy selector helper function
    */
@@ -18,17 +26,39 @@ function Product() {
    * Porfolio isotope and filter
    */
     useEffect(() => {
-        AOS.init({
-            duration: 1000,
-            easing: 'ease-in-out',
-            once: true,
-            mirror: false
-        })
-        AOS.refresh();
-        return () => {
-            console.log("return data")
+        getProduct();
+        if(loading === false){
+            AOS.init({
+                duration: 1000,
+                easing: 'ease-in-out',
+                once: true,
+                mirror: false
+            })
+            AOS.refresh();
+            return () => {
+                console.log("return data")
+            }
         }
     }, []);
+
+    const getProduct = async () => {
+        setloading(true)
+        await axios.get(url + '/product')
+            .then((res) => {
+                console.log(JSON.stringify(res.data))
+                setResponse(res.data);
+                setProduct(res.data.result);
+                // dispatch(allActions.orderRealTimeAction.setOrderRealTime(res.data));
+            })
+            .catch((err) => {
+                setError(err);
+            })
+            .finally(() => {
+                setloading(false);
+            });
+        console.log(JSON.stringify(response, null, 2));
+        return { response, error, loading };
+    }
     // window.addEventListener('load', () => {
     //     let portfolioContainer = select('.portfolio-container');
     //     if (portfolioContainer) {
